@@ -1,0 +1,6 @@
+A bemenetek között van két speciális eset:
+
+1. Kevesebb, mint 3 napunk van! --> Ekkor a kimenet legyen 0.
+2. Minden nap azonos értéket mértek --> Ekkor is a kimenet legyen 0.
+
+Ezeket is le kell kezelni a programban!
