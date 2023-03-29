@@ -15,6 +15,12 @@ def unio_kepzes(a, b):
             u.append(b[i])
     return u 
 
+def a_minus_b_kepzes(a, b):
+    d = []
+    for i in range(len(a)):
+        if a[i] not in b[i]:
+            d.append(a[i])
+    return d
 
 matekosok = ["Anna", "Béla", "Csaba", "Dóra", "Erik", "Ferenc"]
 progosok = ["Ferenc", "József", "Dóra", "Anna", "Csaba"]
@@ -22,3 +28,4 @@ metszet = metszet_kepzes(matekosok, progosok)
 print(metszet)
 
 unio = unio_kepzes(matekosok, progosok)
+csak_matekos = a_minus_b_kepzes(matekosok, progosok)
