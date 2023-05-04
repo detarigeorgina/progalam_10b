@@ -1,0 +1,29 @@
+body {
+    background-color: indianred;
+    color: indigo;
+}
+
+div {
+    width: 70%;
+    background-color: lightcyan;
+    padding: 10px 30px;
+    margin: auto;
+}
+
+
+img {
+    width: 15em;
+    margin: auto;
+    display: block;
+}
+
+h2 {
+    border-left: 5px solid black;
+    padding-left: 5px;
+    font-variant: small-capsy;
+    text-align: justify;
+}
+.erdekesseg {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif ;
+}

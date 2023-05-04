@@ -7,7 +7,7 @@ def beolvas(o, p, mp, xs, ys):
         p.append(int(sor[1]))
         mp.append(int(sor[2]))
         xs.append(int(sor[3]))
-        ys.append(int(sor[4]))
+        ys.append(sor[4])
         sor = fr.readline()
     fr.close()
 

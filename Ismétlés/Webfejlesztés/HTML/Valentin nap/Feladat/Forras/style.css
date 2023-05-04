@@ -1,0 +1,9 @@
+body {
+    padding: 10px;
+    text-align: justify;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+p:has(img) {
+    text-align: center;
+}
