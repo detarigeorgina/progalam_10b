@@ -10,7 +10,6 @@ div {
     margin: auto;
 }
 
-
 img {
     width: 15em;
     margin: auto;
@@ -23,7 +22,26 @@ h2 {
     font-variant: small-capsy;
     text-align: justify;
 }
+
 .erdekesseg {
     font-style: italic;
     font-family: 'Times New Roman', Times, serif ;
+    border: 2px dashed indianred;
+    font-weight: normal;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+#bevezeto, #jellemzok {
+    font-weight: bold;
+}
+
+a {
+    background-color:ligh;  
+    color: blue;
+    font-size: 1.2rem;
+    font-size: 120%;
+    padding: 5px 10px;
 }
